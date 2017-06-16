@@ -1,0 +1,30 @@
+beta
+
+git init
+git status
+#git 원격지 주소를 알려준다 
+git remote add origin https://github.com/viharati/test.git
+git status
+
+git add gitstart.txt
+git add .
+
+#파일 수정 후
+git status
+git add gitstart.txt
+git commit -m 'comments'
+git push -u origin master
+
+git checkout -b beta
+git branch
+
+git checkout -b master
+git branch
+
+git checkout -b beta
+git branch
+
+git push -u origin beta
+
+git config --global user.email "@.com"
+git config --global user.name "viharaty"
