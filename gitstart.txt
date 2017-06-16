@@ -10,3 +10,10 @@ git add .
 #파일 수정 후
 git status
 git add gitstart.txt
+git commit -m 'comments'
+git push -u origin master
+
+
+
+git config --global user.email "@.com"
+git config --global user.name "viharaty"
